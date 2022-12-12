@@ -25,7 +25,7 @@ class RomanNumeralsTest(unittest.TestCase):
     def test_5_is_a_single_v(self):
         self.assertEqual(roman(5), "V")
 
-    @unittest.skip("reason for skipping")
+    #@unittest.skip("reason for skipping")
     def test_6_being_5_1_is_vi(self):
         self.assertEqual(roman(6), "VI")
 
