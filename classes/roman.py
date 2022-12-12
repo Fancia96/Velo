@@ -1,9 +1,9 @@
 
 
 def roman(number):
-    num = [1]
-    sym = ["I"]
-    i = 0
+    num = [1, 4]
+    sym = ["I", "IV"]
+    i = 1
 
     return_number = ""
 
